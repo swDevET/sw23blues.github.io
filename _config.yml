@@ -1,5 +1,5 @@
 ### Site info: 
-title: iosNandroidTalk
+title: iOS & Android Talk
 tagline: Another Jekyll theme, Freshman twenty-first
 author: sw23blues
 email: sw23blues@gmail.com
@@ -10,12 +10,10 @@ url: "https://sw23blues.github.io" # the base hostname & protocol for your site
 locale: ko_KR
 
 ### Personal info and site tools info:
-twitter_username: 
 github_username:  sw23blues
-disqus_shortname: 
 favicon:    # "/images/favicon.ico"
-aboutme: Hi, this is sw23blues blog. 일단 시작할게 # these are shown on aboutme-sidebar.
-aboutme_photo: "/images/profile.ico" # your photo.
+aboutme: Hi # these are shown on aboutme-sidebar.
+aboutme_photo: "/images/profile.png" # your photo.
 google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
 
 
