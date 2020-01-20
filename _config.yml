@@ -1,13 +1,13 @@
-### Site info:
-title: iOS N Android Talk
-tagline: Another Jekyll theme, Freshman twenty-first
-author: sw23blues
-email: sw23blues@gmail.com
-description: "iOS, Android 개발 이야기" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "iOS, Android"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://sw23blues.github.io" # the base hostname & protocol for your site
-locale: ko_KR
+### Site info: 
+title:  iosNandroidTalk
+tagline:  Another Jekyll theme, Freshman twenty-first
+author:  sw23blues
+email:  sw23blues@gmail.com
+description:  "iOS, Android 개발 이야기" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords:  "iOS, Android"
+baseurl:  "" # the subpath of your site, e.g. /blog/
+url:  "https://sw23blues.github.io" # the base hostname & protocol for your site
+locale:  ko_KR
 
 ### Personal info and site tools info:
 twitter_username: 
