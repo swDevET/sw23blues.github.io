@@ -18,8 +18,8 @@ google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
-ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
-default_column: "one" # blog style: two columns, if default_column != "two", you will see a one column blog.
+ShowContactInfo: "False" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr),  Russian (ru), Turkish (tr), and Indonesian (id).
 
 locales:
@@ -181,12 +181,19 @@ locales:
 #         title: Lijia Yu's website
 
 
-### Build settings
+## Build settings
 # markdown: kramdown
-# #highlighter: pygments
+markdown: 
+#highlighter: pygments
 # kramdown:
 #         input: GFM
 #         syntax_highlighter: rouge
 # plugins: [jekyll-paginate]
 # paginate: 5
 # excerpt_separator: <!-- more -->
+kramdown:
+        input: 
+        syntax_highlighter: 
+plugins: 
+paginate: 5
+excerpt_separator: <!-- more -->
