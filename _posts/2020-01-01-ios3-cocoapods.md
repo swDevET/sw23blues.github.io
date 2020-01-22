@@ -1,9 +1,9 @@
 --- 
 published: true
-title: iOS CocoaPods
+title: iOS cocoapods
 layout: post
 author: sw23blues
-category: iOS CocoaPods
+category: iOS
 tags: 
 - CocoaPods
 
@@ -42,5 +42,5 @@ CocoaPods 사용 기본 명령어
 
 
 **잘 정리된 블로그**
-[ClintJang]("https://github.com/ClintJang/cocoapods-tips/blob/master/README.md")
+[ClintJang](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md)
 
