@@ -35,12 +35,3 @@ CocoaPods 사용 기본 명령어
 ` pod install`
 
 
-
-
-=====
-
-
-
-**잘 정리된 블로그**
-[ClintJang](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md)
-
