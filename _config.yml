@@ -1,9 +1,9 @@
 ### Site info: 
-title: iOS & Android Talk
-tagline: iOS, Android 개발 이야기
+title: programming notes
+tagline: 
 author: sw23blues
 email: sw23blues@gmail.com
-description: "iOS, Android 개발 이야기" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+description: "iOS, Android Talk" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "iOS, Android"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://sw23blues.github.io" # the base hostname & protocol for your site
@@ -12,7 +12,7 @@ locale: ko_KR
 ### Personal info and site tools info:
 github_username:  sw23blues
 favicon:    # "/images/favicon.ico"
-aboutme: Hi # these are shown on aboutme-sidebar.
+aboutme: he is so persistent # these are shown on aboutme-sidebar.
 aboutme_photo: "/images/profile.png" # your photo.
 google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
 
