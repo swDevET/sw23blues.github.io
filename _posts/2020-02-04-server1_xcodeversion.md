@@ -17,13 +17,13 @@ app 만들다보니 필요해서 간단하게 rest api 서버를 구축해보았
 안정적인 버전이 있겠지만, 알 수 없으니 무조건 최신버전으로 설치했다.<br>
 쭉쭉 설치하고 프로젝트 생성전에 셋팅 하는걸로..<br>
 
-**환경**<br>
+### 환경<br>
 macOS Mojave 10.14.5<br>
 Java JDK 1.8.0_241<br>
 Apache Tomcat 8.5.50<br>
 Eclipse IDE for Enterprise Java Developers 2019-12 (4.14.0)<br>
 
-**설치**<br>
+### 설치<br>
 1. JDK [설치](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 2. 톰켓 [설치](http://tomcat.apache.org/)
@@ -51,7 +51,7 @@ Eclipse IDE for Enterprise Java Developers 2019-12 (4.14.0)<br>
 6. Postman [설치](https://www.postman.com/downloads/)
 <br>
 
-**프로젝트 셋팅**<br>
+### 프로젝트 셋팅<br>
 1. File > New > Start Spring Project 프로젝트 생성
 (프로젝트 생성 후 구성, 패키지, 디렉토리, 파일 등의 경로와 이름 등 참고)
 
