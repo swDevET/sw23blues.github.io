@@ -53,8 +53,9 @@ Eclipse IDE for Enterprise Java Developers 2019-12 (4.14.0)<br>
 
 **프로젝트 셋팅**<br>
 1. File > New > Start Spring Project 프로젝트 생성
+(프로젝트 생성 후 구성, 패키지, 디렉토리, 파일 등의 경로와 이름 등 참고)
 
-2. pom.xml 
+2. pom.xml 수정
     - DB 접속 관련 dependency 추가
     ```
 		<dependency>
@@ -87,16 +88,16 @@ Eclipse IDE for Enterprise Java Developers 2019-12 (4.14.0)<br>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
     ```
-3. application.properties
-    ```
-    #port
-    server.port = 8090 
+3. application.properties 수정
+    	```
+    	#port
+    	server.port = 8090 
 
-    spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
-    spring.datasource.url=jdbc:mysql://localhost/sys?characterEncoding=UTF-8&serverTimezone=UTC
-    spring.datasource.username=root
-    spring.datasource.password=11111111
-    ```
+    	spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+    	spring.datasource.url=jdbc:mysql://localhost/sys?characterEncoding=UTF-8&serverTimezone=UTC
+    	spring.datasource.username=root
+    	spring.datasource.password=11111111
+    	```
     
     ***이슈**<br>
     <code>The server time zone value ‘KST’ is unrecognized or represents more than one time zone : mysql-connector-java</code><br>
@@ -105,8 +106,16 @@ Eclipse IDE for Enterprise Java Developers 2019-12 (4.14.0)<br>
     ***이슈**<br>
     <code>Web server failed to start. Port 8080 was already in use.</code><br>
     해결! 포트를 바꿔주거나 죽이면된다.<br> 
-    ```server.port = (포트번호)``` 이부분이 포트 지정<br>
-    터미널에서 특정 포트 kill 명령 
-    ```lsof -i :(포트번호) ```, ```kill -9 (PID)```
+    - 포트 지정 ```server.port = (포트번호)```<br>
+    - 터미널에서 특정 포트 kill 명령 ```lsof -i :(포트번호) ```, ```kill -9 (PID)```
    
-
+4. mybatis-config.xml 생성
+	```
+	<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE configuration PUBLIC "-//www.mybatis.org//DTD Config 3.0//EN" "http://www.mybatis.org/dtd/mybatis-3-config.dtd"> 
+     
+	<configuration>
+     
+	</configuration>
+	```
+5. 개발 시작! 하기 전에 CRUD 테스트기능만 넣어보았다. [download here]()
