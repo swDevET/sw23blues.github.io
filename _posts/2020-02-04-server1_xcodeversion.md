@@ -88,16 +88,15 @@ Eclipse IDE for Enterprise Java Developers 2019-12 (4.14.0)<br>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
     ```
-3. application.properties 수정
-    	```
-    	#port
-    	server.port = 8090 
+3. application.properties 수정#port
+    ```
+	server.port = 8090 
 
-    	spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
-    	spring.datasource.url=jdbc:mysql://localhost/sys?characterEncoding=UTF-8&serverTimezone=UTC
-    	spring.datasource.username=root
-    	spring.datasource.password=11111111
-    	```
+	spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+	spring.datasource.url=jdbc:mysql://localhost/sys?characterEncoding=UTF-8&serverTimezone=UTC
+	spring.datasource.username=root
+	spring.datasource.password=11111111
+    ```
     
     ***이슈**<br>
     <code>The server time zone value ‘KST’ is unrecognized or represents more than one time zone : mysql-connector-java</code><br>
