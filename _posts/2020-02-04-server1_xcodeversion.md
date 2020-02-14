@@ -88,7 +88,7 @@ Eclipse IDE for Enterprise Java Developers 2019-12 (4.14.0)<br>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
     ```
-3. application.properties 수정#port
+3. application.properties 수정
     ```
 	server.port = 8090 
 
